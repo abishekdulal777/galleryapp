@@ -1,8 +1,10 @@
 const webpack = require('webpack');
+var path = require('path');
 
 let config = {
   entry: './index.js',
   output: {
+    path: path.resolve(__dirname, './dist'),
     filename: 'output.js',
   },
   module: {
