@@ -26,7 +26,6 @@ const callAPI = () => {
         let newimagebox = document.createElement("div");
         let newimage = document.createElement("img");
         newimagebox.className = "card";
-        console.log(obj);
         newimage.src = obj.urls.small;
         newimage.className = "card-img-top";
         newimage.setAttribute("data-toggle","modal");
