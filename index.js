@@ -1,3 +1,5 @@
+import css from './css/mycss.css';
+
 const UnsplashAPIUrl = "https://api.unsplash.com/photos/?client_id=ed3da82e8b5b04f5b0bbbfe1e47998bc31a237ef0b8055078ec7309df661939a";
 
 const callAPI = () => {
