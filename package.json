@@ -1,0 +1,27 @@
+{
+  "name": "galleryapp",
+  "version": "1.0.0",
+  "description": "a simple web application displays photos.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "webpack-dev-server",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tesshuang/galleryapp.git"
+  },
+  "author": "Tess Huang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tesshuang/galleryapp/issues"
+  },
+  "homepage": "https://github.com/tesshuang/galleryapp#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.5"
+  }
+}
