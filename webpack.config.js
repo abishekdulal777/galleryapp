@@ -2,10 +2,11 @@ const webpack = require('webpack');
 var path = require('path');
 
 let config = {
+  mode: 'production',
   entry: './index.js',
   output: {
     path: path.resolve(__dirname, './dist'),
-    filename: 'output.js',
+    filename: 'app.js',
   },
   module: {
     rules: [
